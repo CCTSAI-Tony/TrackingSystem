@@ -1,6 +1,23 @@
-# TrackingSystem
+<div align="center">
+	<img width="900" src="https://github.com/CCTSAI-Tony/TrackingSystem/blob/master/logo.png" alt="emaily">
+	<br>
+</div>
 
-Implemented by Python with Django.
+This easy-to-use profile tracking system is designed for graduate students to upload their transcript and thesis. (Claim: Due to the free usage time is expired on Goole App Engine, some features may stop working.)[LINK](https://mysocial66.herokuapp.com/)
+
+I'm happy to accept more configurability and features. PR welcome! What you see here is just what I needed for my own apps.
+
+## User Interfaces
+
+#### Main site - login
+
+<img src="https://github.com/CCTSAI-Tony/TrackingSystem/blob/master/login.png" width="532">
+
+#### Search page
+
+<img src="https://github.com/CCTSAI-Tony/simplesocial/blob/master/search.png" width="532">
+
+## Implemented by Python with Django.
 
 To setup on AWS, run the following commands.
 
@@ -29,17 +46,18 @@ npm install -g heroku
 ```
 
 Then for new apps, run
+
 ```
 heroku create
 ```
 
 For an existing app, run
+
 ```
 heroku git:remote -a $YOUR_HEROKU_APP_NAME
 ```
 
 To use email functions, like password reset, a Config Var named 'SENDGRID_API_KEY' is needed in settings of Heroku App. You can fetch this key in SendGrid Official Site. For more information, read the article [Setup API Key Environment Variable](https://devcenter.heroku.com/articles/sendgrid#setup-api-key-environment-variable) and article [Obtain an API Key](https://devcenter.heroku.com/articles/sendgrid#obtaining-an-api-key).
-
 
 2. Deploy App
 
