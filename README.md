@@ -1,22 +1,3 @@
-<div align="center">
-	<img width="900" src="https://github.com/qianqiuzhongdu/TrackingSystem/blob/master/logo.png" alt="TrackingSystem">
-	<br>
-</div>
-
-This easy-to-use profile tracking system is designed for graduate students to upload their transcript and thesis. (Claim: Due to the free usage time is expired on Goole App Engine, some features may stop working.)[LINK](https://lateral-insight-272819.appspot.com/)
-
-I'm happy to accept more configurability and features. PR welcome! What you see here is just what I needed for my own apps.
-
-## User Interfaces
-
-#### Main site - login
-
-<img src="https://github.com/qianqiuzhongdu/TrackingSystem/blob/master/login.png" width="532">
-
-#### Search page
-
-<img src="https://github.com/qianqiuzhongdu/TrackingSystem/blob/master/search.png" width="532">
-
 ## Implemented by Python with Django.
 
 To setup on AWS, run the following commands.
